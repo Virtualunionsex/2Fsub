@@ -1,8 +1,4 @@
 # (©)Codexbotz
-# Recode By Zaen #Mafia_Tobatz
-# Kalo clone Gak usah hapus 
-# gue tandain akun tele nya ngentod
-
 
 import logging
 import os
@@ -30,15 +26,12 @@ OWNER = os.environ.get("OWNER", "@Mafia_Tobatz")
 DB_URI = os.environ.get("DATABASE_URL", "")
 
 # Username CH & Group
-CHANNEL = os.environ.get("CHANNEL", "Tolak_Ange")
-GROUP = os.environ.get("GROUP", "Tolak_Ange")
+CHANNEL = os.environ.get("CHANNEL", "Terim4k4sih")
+GROUP = os.environ.get("GROUP", "Terim4k4sih")
 
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
 FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "0"))
-
-# ID dari Channel Atau Group Untuk Wajib Subscribenya
-FORCE_SUB_CHANNEL1 = int(os.environ.get("FORCE_SUB_CHANNEL1", "0"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
