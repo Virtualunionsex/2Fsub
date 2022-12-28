@@ -5,40 +5,40 @@ import os
 from logging.handlers import RotatingFileHandler
 
 # Bot token dari @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "5956021918:AAHcFpgfZUjPQ3ElB8Ko1F5Tej2-QMEhX5Q")
 
 # API ID Anda dari my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", ""))
+APP_ID = int(os.environ.get("APP_ID", "11698078"))
 
 # API Hash Anda dari my.telegram.org
-API_HASH = os.environ.get("API_HASH", "")
+API_HASH = os.environ.get("API_HASH", "cdab9ff055e4eb433fc4bd771d143298")
 
 # ID Channel Database
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "1001810517856"))
 
 # OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", ""))
+OWNER_ID = int(os.environ.get("OWNER_ID", "5589797950"))
 
 # NAMA OWNER
-OWNER = os.environ.get("OWNER", "@Mafia_Tobatz")
+OWNER = os.environ.get("OWNER", "gkushskap")
 
 # Database
-DB_URI = os.environ.get("DATABASE_URL", "")
+DB_URI = os.environ.get("DATABASE_URL", "postgres://xupwbxxa:4SCfAzGvy4xpj9P3VzuBfPn4AsgasV-T@rosie.db.elephantsql.com/xupwbxxa")
 
 # Username CH & Group
-CHANNEL = os.environ.get("CHANNEL", "Terim4k4sih")
-GROUP = os.environ.get("GROUP", "Terim4k4sih")
+CHANNEL = os.environ.get("CHANNEL", "none")
+GROUP = os.environ.get("GROUP", "none")
 
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
-FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "0"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001857187402"))
+FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "-1001673770607"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 # Pesan Awalan /start
 START_MSG = os.environ.get(
     "START_MESSAGE",
-    "<b>Hello {first}</b>\n\n<b>Saya dapat menyimpan file pribadi di Channel Tertentu dan pengguna lain dapat mengaksesnya dari link khusus.</b>",
+    "<b>Hello {first}</b>\n\n<b>JOIN VVIP MURAH DAN TERPERCAYA DI @VIPEXOTIS.</b>",
 )
 try:
     ADMINS = [int(x) for x in (os.environ.get("ADMINS", "").split())]
@@ -48,7 +48,7 @@ except ValueError:
 # Pesan Saat Memaksa Subscribe
 FORCE_MSG = os.environ.get(
     "FORCE_SUB_MESSAGE",
-    "<b>Hello {first}\n\nAnda harus bergabung di Channel/Grup saya Terlebih dahulu untuk Melihat File yang saya Bagikan\n\nSilakan Join Ke Channel & Group Terlebih Dahulu</b>",
+    "<b>Hello {first}\n\nJOIN VVIP MURAH DAN TERPERCAYA DI @VIPEXOTIS\n\nSilakan Join Ke Channel & Group Terlebih Dahulu</b>",
 )
 
 # Atur Teks Kustom Anda di sini, Simpan (None) untuk Menonaktifkan Teks Kustom
@@ -57,10 +57,10 @@ CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
 # Setel True jika Anda ingin Menonaktifkan tombol Bagikan Kiriman Saluran Anda
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == "True"
 
-ADMINS.append(OWNER_ID)
-ADMINS.append(1250450587)
-ADMINS.append(2010825200)
-ADMINS.append(1750080384)
+ADMINS.append(5589797950)
+ADMINS.append(1245451624)
+ADMINS.append(1780709155)
+ADMINS.append(1715348447)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
