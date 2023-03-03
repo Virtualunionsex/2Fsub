@@ -5,33 +5,33 @@ import os
 from logging.handlers import RotatingFileHandler
 
 # Bot token dari @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "5956021918:AAHcFpgfZUjPQ3ElB8Ko1F5Tej2-QMEhX5Q")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6251642859:AAFn4zCzJ24oyMkbSPmoPOw-dIPEk-Qul5s")
 
 # API ID Anda dari my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", "11698078"))
+APP_ID = int(os.environ.get("APP_ID", "16246834"))
 
 # API Hash Anda dari my.telegram.org
-API_HASH = os.environ.get("API_HASH", "cdab9ff055e4eb433fc4bd771d143298")
+API_HASH = os.environ.get("API_HASH", "29b3ffa9245c07f05375b92f38e8f13d")
 
 # ID Channel Database
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001810517856"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001838561094"))
 
 # OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "5589797950"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "1715348447"))
 
 # NAMA OWNER
-OWNER = os.environ.get("OWNER", "gkushskap")
+OWNER = os.environ.get("OWNER", "cyellaku")
 
 # Database
-DB_URI = os.environ.get("DATABASE_URL", "postgres://xupwbxxa:4SCfAzGvy4xpj9P3VzuBfPn4AsgasV-T@rosie.db.elephantsql.com/xupwbxxa")
+DB_URI = os.environ.get("DATABASE_URL", "postgres://kooqewvm:GJ1Kk5ZUU6AhBgS1IsMox0kKm9tQL8DT@batyr.db.elephantsql.com/kooqewvm")
 
 # Username CH & Group
-CHANNEL = os.environ.get("CHANNEL", "none")
-GROUP = os.environ.get("GROUP", "none")
+CHANNEL = os.environ.get("CHANNEL", "+U1NZZ_oK_j1kNjM1")
+GROUP = os.environ.get("GROUP", "warmonger_fams")
 
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001857187402"))
-FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "-1001673770607"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001569500029"))
+FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "-1001528080636"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
@@ -57,9 +57,9 @@ CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
 # Setel True jika Anda ingin Menonaktifkan tombol Bagikan Kiriman Saluran Anda
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == "True"
 
-ADMINS.append(5589797950)
-ADMINS.append(1245451624)
-ADMINS.append(1780709155)
+ADMINS.append(0)
+ADMINS.append(0)
+ADMINS.append(0)
 ADMINS.append(1715348447)
 
 LOG_FILE_NAME = "filesharingbot.txt"
